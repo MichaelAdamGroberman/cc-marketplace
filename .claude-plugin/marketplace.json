@@ -1675,6 +1675,29 @@
       ]
     },
     {
+      "name": "kreatsaas",
+      "source": "./plugins/kreatsaas",
+      "description": "SaaS Builder Guide - Build production-ready SaaS from design to deployment with 11 skill guides, 5 AI agents, and beginner-friendly FAQ",
+      "version": "1.0.0",
+      "author": {
+        "name": "johunsang",
+        "url": "https://github.com/johunsang"
+      },
+      "category": "dev-tools",
+      "homepage": "https://github.com/johunsang/kreatsaas",
+      "keywords": [
+        "saas",
+        "builder",
+        "guide",
+        "beginner",
+        "design",
+        "architecture",
+        "deployment",
+        "nextjs",
+        "korean"
+      ]
+    },
+    {
       "name": "claude-dev-infrastructure",
       "source": "./plugins/claude-dev-infrastructure",
       "description": "Complete development infrastructure for Claude Code projects - 12 AI skills, task coordination hooks, multi-instance locking, templates, and visual Kanban dashboard",
