@@ -19,6 +19,5 @@
     "nextjs",
     "korean"
   ],
-  "license": "MIT",
-  "commands": "./commands/"
+  "license": "MIT"
 }
