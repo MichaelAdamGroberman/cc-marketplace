@@ -1,0 +1,27 @@
+{
+  "name": "gr0m_mem",
+  "description": "Persistent memory brain that stops Claude from re-asking and re-deriving across sessions. SQLite FTS5 zero-install default, ChromaDB + Ollama semantic retrieval on the semantic branch. Temporal knowledge graph, per-corpus isolation, loop-prevention protocol, and session hooks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Michael Adam Groberman",
+    "url": "https://github.com/MichaelAdamGroberman"
+  },
+  "homepage": "https://github.com/MichaelAdamGroberman/gr0m_mem",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "rag",
+    "sqlite",
+    "chromadb",
+    "wakeup",
+    "loop-prevention",
+    "temporal-knowledge-graph",
+    "mcp"
+  ],
+  "mcpServers": {
+    "gr0m_mem": {
+      "command": "python",
+      "args": ["-m", "gr0m_mem.mcp_server"]
+    }
+  }
+}
