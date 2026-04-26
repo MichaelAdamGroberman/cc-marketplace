@@ -1721,7 +1721,7 @@
       ]
     },
     {
-      "name": "gr0m_mem",
+      "name": "gr0m-mem",
       "source": "./plugins/gr0m-mem",
       "description": "Persistent memory brain that stops Claude from re-asking and re-deriving across sessions. SQLite FTS5 zero-install default, ChromaDB + Ollama on the semantic branch.",
       "version": "0.1.0",

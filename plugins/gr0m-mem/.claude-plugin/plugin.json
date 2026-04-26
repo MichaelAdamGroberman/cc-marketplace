@@ -1,5 +1,5 @@
 {
-  "name": "gr0m_mem",
+  "name": "gr0m-mem",
   "description": "Persistent memory brain that stops Claude from re-asking and re-deriving across sessions. SQLite FTS5 zero-install default, ChromaDB + Ollama semantic retrieval on the semantic branch. Temporal knowledge graph, per-corpus isolation, loop-prevention protocol, and session hooks.",
   "version": "0.1.0",
   "author": {
@@ -18,10 +18,5 @@
     "temporal-knowledge-graph",
     "mcp"
   ],
-  "mcpServers": {
-    "gr0m_mem": {
-      "command": "python",
-      "args": ["-m", "gr0m_mem.mcp_server"]
-    }
-  }
+  "mcpServers": "./.mcp.json"
 }

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gr0m_mem": {
+      "command": "python",
+      "args": ["-m", "gr0m_mem.mcp_server"]
+    }
+  }
+}
